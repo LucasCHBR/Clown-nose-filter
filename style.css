@@ -1,0 +1,19 @@
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#takesnapshot:hover {
+    background-color: red;
+}
+
+Canvas {
+    animation-name: CanvaAnim;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes CanvaAnim{
+from{box-shadow: 2px 2px 30px rgb(0, 129, 123);}
+to{box-shadow: 2px 2px 30px green;}
+}
